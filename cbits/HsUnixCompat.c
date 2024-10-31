@@ -8,15 +8,15 @@
 
 unsigned int unix_major(dev_t dev)
 {
-    return major(dev);
+  return 0; //major(dev);
 }
 
 unsigned int unix_minor(dev_t dev)
 {
-    return minor(dev);
+  return 0; //minor(dev);
 }
 
 dev_t unix_makedev(unsigned int maj, unsigned int min)
 {
-    return makedev(maj, min);
+  return 0; //makedev(maj, min);
 }
